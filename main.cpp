@@ -29,7 +29,7 @@ balance is exactly $1, you win the game. You lose if your balance exceeds $1.*/
 
 #include <iostream>
 #include <string>
-#include <iomanip>
+#include <iomanip>// for setpresicion
 #include "Coin.h"
 using namespace std;
 
@@ -142,6 +142,9 @@ int main()
 /*================================================================================================
            OUTPUT
 /*================================================================================================
+            ver 2
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 This is a game where you toss a coin and if it's head side up, you get that amount.
  If you reach exactly $1.00, you win! But if you go over, then I win. Ready?
  You may quit by inputting '#'
