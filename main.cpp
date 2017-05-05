@@ -70,7 +70,7 @@ int main()
                     cout<<"Tails."<<endl<< score<<setprecision (4)<<" oops,try again " <<endl;
 
                 break;
-            case 'n'://this statement runs when the user wants to flip a nickle.
+            case 'n'://this statement runs when the user wants to flip a nickel.
                 useMe.GetsideUp();
 
                 if ( useMe.toss("val"))
