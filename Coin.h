@@ -1,3 +1,10 @@
+//============================================================================
+// Name        : Coin.h
+// Author      : nancy zhou
+// Version     : 1.0
+// Copyright   : no stealing
+// Description :
+//============================================================================
 #ifndef COIN_H
 #define COIN_H
 
@@ -12,7 +19,7 @@ using namespace std;
 class Coin
 {
 private:
-    string sideUp;
+     int sideUp;
 
 
 public:
@@ -21,8 +28,9 @@ public:
         srand (time(0));
     };
 
-    string GetsideUp()
+    const int GetsideUp()
     {
+
         return sideUp;
     }
 
